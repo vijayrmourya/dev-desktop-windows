@@ -3,7 +3,7 @@ variable "instance_username" {
 }
 
 variable "instance_type" {
-  default = "t3.medium"
+  default = "t3.xlarge"
 }
 
 variable "instance_public_ip_enable" {
@@ -12,7 +12,7 @@ variable "instance_public_ip_enable" {
 
 variable "tag_instance" {
   default = {
-    Name = "vmourya-dev-deskop"
+    Name = "windows-dev-deskop"
   }
 }
 
